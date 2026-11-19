@@ -90,6 +90,17 @@ export default function Footer() {
           <p>© 2026–2027 Pay.ResumeClimbAI.com. All rights reserved.</p>
         </div>
       </div>
+      <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+            <p>© 2026–2027 Pay.ResumeClimbAI.com. All rights reserved.</p>
+            <div className="flex gap-4">
+              <Link href="/about" className="hover:text-emerald-400 underline">
+                About &amp; Affiliate Disclosure
+              </Link>
+              <Link href="/privacy-policy" className="hover:text-emerald-400 underline">
+                Privacy Policy
+              </Link>
+            </div>
+          </div>
     </footer>
   );
 }
