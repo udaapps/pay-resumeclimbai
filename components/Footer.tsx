@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-5 text-[11px] leading-5 text-slate-400 space-y-2">
+        <div className="border-t border-slate-800 pt-5 text-[11px] leading-5 text-slate-400 space-y-3">
           <p>
             <strong>Tax &amp; Financial Disclaimer:</strong> All calculators on
             pay.resumeclimbai.com provide educational estimates based on 2026
@@ -87,10 +87,8 @@ export default function Footer() {
             apply. Always consult a qualified CPA or official IRS instructions
             before filing.
           </p>
-          <p>© 2026–2027 Pay.ResumeClimbAI.com. All rights reserved.</p>
-        </div>
-      </div>
-      <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+
+          <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
             <p>© 2026–2027 Pay.ResumeClimbAI.com. All rights reserved.</p>
             <div className="flex gap-4">
               <Link href="/about" className="hover:text-emerald-400 underline">
@@ -101,6 +99,8 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
     </footer>
   );
 }
